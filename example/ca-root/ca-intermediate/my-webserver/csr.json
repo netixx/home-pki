@@ -1,0 +1,19 @@
+{
+    "CN": "my-webserver.domain",
+    "hosts": [
+        "my-webserver",
+        "my-webserver.domain"
+    ],
+    "key": {
+        "algo": "rsa",
+        "size": 2048
+    },
+    "names": [
+        {
+            "C": "FR",
+            "ST": "IDF",
+            "L": "Paris"
+        }
+    ]
+}
+

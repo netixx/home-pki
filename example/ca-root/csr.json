@@ -1,0 +1,15 @@
+{
+    "CN": "root.domain",
+    "key": {
+        "algo": "ecdsa",
+        "size": 256
+    },
+    "names": [
+        {
+            "C": "FR",
+            "ST": "IDF",
+            "L": "Paris"
+        }
+    ]
+}
+
