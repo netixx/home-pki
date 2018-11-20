@@ -7,6 +7,8 @@ sign_path="$(dirname "${csr_path}")"
 
 cert_name="$(basename $sign_path)"
 cert_output="$sign_path/$cert_name"
+cert_file="$sign_path/$cert_name.pem"
+key_file="$sign_path/$cert_name-key.pem"
 
 ca_dir="$(cd "${sign_path}/..";pwd)"
 ca_name="$(basename "$ca_dir")"

@@ -13,7 +13,6 @@ fi
 
 source scripts/extract-info.sh
 
-cert_file="$sign_path/$cert_name.pem"
 if [ -f "$cert_file" ]; then
   echo "Certificate $cert_name exists in $cert_file, not overwriting"
   exit 1
